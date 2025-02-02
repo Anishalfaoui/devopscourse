@@ -1,0 +1,20 @@
+Clone : bring repo that is hosted
+add: track your files in git
+Commit:save your files in git
+push: Upload git commit to a remote repo
+pull: download changes from repo to local
+
+git add . : track al the files
+git status : stats of changes
+commit : git commit -m "start"
+git remote -v : see origin
+ssh key: ssh-keygen -t rsa -b 4096 -C "halfaouianis532@gmail.com"
+print public key : cat testkey.pub
+- **Générer une clé SSH** : `ssh-keygen -t rsa -b 4096 -C "email"`  
+- **Démarrer l’agent SSH** : `ssh-agent cmd.exe` (Windows) / `eval $(ssh-agent -s)` (Linux/macOS)  
+- **Ajouter une clé à l’agent** : `ssh-add ~/.ssh/id_rsa`  
+- **Copier la clé publique** : `clip < ~/.ssh/id_rsa.pub` (Windows)  
+- **Tester la connexion** : `ssh -T git@github.com`  
+- **Lister les clés chargées** : `ssh-add -l`  
+- **Supprimer une clé** : `ssh-add -d ~/.ssh/id_rsa`  
+SSH : git@github.com:username/repo.git
