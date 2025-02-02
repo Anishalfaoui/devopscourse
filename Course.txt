@@ -34,4 +34,8 @@ git checkout -b feature-readme
 git diff feature1
 git merge feature1
 
-hi from feature1
+git fetch origin    # Get updates from the remote without merging
+git merge origin/main  # Merge remote main into your current local branch
+
+
+
