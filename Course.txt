@@ -24,3 +24,9 @@ SSH : git@github.com:username/repo.git
 //ssh-add -l
 //ssh -T git@github.com
 
+
+
+
+//Branching
+git branch
+git checkout -b feature-readme
