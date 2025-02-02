@@ -33,3 +33,5 @@ git checkout -b feature-readme
 
 git diff feature1
 git merge feature1
+
+hi from feature1
