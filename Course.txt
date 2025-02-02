@@ -36,6 +36,8 @@ git merge feature1
 
 git fetch origin    # Get updates from the remote without merging
 git merge origin/main  # Merge remote main into your current local branch
+//git reset anis.html
+//git reset HEAD~1
+//git log
 
-
-
+git reset --hard  6ae93d9c9f84339d4bc4e6851fe1fbc66e1ba155 : undoing also
