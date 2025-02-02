@@ -18,3 +18,9 @@ print public key : cat testkey.pub
 - **Lister les clés chargées** : `ssh-add -l`  
 - **Supprimer une clé** : `ssh-add -d ~/.ssh/id_rsa`  
 SSH : git@github.com:username/repo.git
+
+
+//ssh-add C:/Users/PC/OneDrive/Bureau/devopscourse/testkey
+//ssh-add -l
+//ssh -T git@github.com
+
